@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación de Boda - Alexandra & Rafael</title>
+    <style>
+        /* Estilos CSS para el cuerpo de la página */
+        body {
+            margin: 0; /* Elimina el margen predeterminado del navegador */
+            padding: 0;
+            background-color: #f7f7f7; /* Color de fondo suave (opcional) */
+            display: flex; /* Centra el contenido */
+            justify-content: center;
+            align-items: flex-start; /* Alinea la imagen en la parte superior */
+            min-height: 100vh; /* Asegura que se pueda hacer scroll si es necesario */
+        }
+
+        /* Estilos CSS para la imagen */
+        .invitacion-img {
+            /* 100% del ancho del viewport (pantalla) */
+            width: 100vw;
+            /* La altura será automática para mantener la proporción */
+            height: auto;
+            /* Establece un ancho máximo para evitar que se vea demasiado grande en pantallas muy anchas (opcional) */
+            /* max-width: 600px; */
+            /* Asegura que la imagen se centre horizontalmente dentro del contenedor 'body' (si se usa max-width) */
+            display: block;
+        }
+
+        /* Contenedor que solo limita el ancho si se usa max-width */
+        .contenedor {
+            width: 100%;
+            /* max-width: 600px; */ /* Ancho máximo para el contenido, coincide con la imagen */
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <img 
+            src="invitación.png" 
+            alt="Invitación de Boda de Alexandra y Rafael" 
+            class="invitacion-img"
+        >
+    </div>
+</body>
+</html>
